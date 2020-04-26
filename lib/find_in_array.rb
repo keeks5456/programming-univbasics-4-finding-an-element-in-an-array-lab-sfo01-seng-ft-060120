@@ -32,7 +32,7 @@ def find_element_index(array, value_to_find)
   count = 0 
   until array[count] == value_to_find
   puts count
-  break
   count += 1 
+  break
 end
 end 
